@@ -11,21 +11,21 @@
 - 소스코드는 자유롭게 작성해주세요.
 - 주의사항: java 사용자들은 백준 제출시 클래스 이름이 Main이어야 제출이 가능합니다. 하지만, 커밋 제출할 때는 파일이름과 클래스 이름 규칙을 따라주세요.
   - 백준 제출시 코드
-```java
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
+    ```java
+    public class Main {
+        public static void main(String[] args) {
+            System.out.println("Hello World!");
+        }
     }
-}
-```
+    ```
   - 커밋 제출시 코드
-```java
-public class boj_2557_seunghyun {
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
+    ```java
+    public class boj_2557_seunghyun {
+        public static void main(String[] args) {
+            System.out.println("Hello World!");
+        }
     }
-}
-```
+    ```
 
 ## ✅ 파일 작성 규칙
 - '이름_주차_문제번호' 순서로 작성해주세요.
