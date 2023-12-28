@@ -37,10 +37,11 @@ public class boj_2557_seunghyun {
 ## ✅ commit 규칙
 - commit은 1문제를 풀때마다 작성해주세요.
 - commit message: 문제 제목 / 난이도 / 링크
+  - `1931 / silver 1 / https://www.acmicpc.net/problem/1931`
 - 터미널에서 작성법
-  - `git commit -m "Hello World / bronze5 / https://www.acmicpc.net/problem/2557"`
+  - `git commit -m "1931 / silver 1 / https://www.acmicpc.net/problem/1931"`
 - Extended description은 자유롭게 작성해주세요. 저는 사고과정, 사용한 알고리즘 같은 것들을 적을 예정입니다.
-- 예시: https://github.com/michaelkimm/Algorithm-problem-solving-thought-process-re-record/commit/5e56b3145ddf401469f33ea91cad4f5b36bcffc9
+  - 예시: https://github.com/michaelkimm/Algorithm-problem-solving-thought-process-re-record/commit/5e56b3145ddf401469f33ea91cad4f5b36bcffc9
 
 ## ✅ PR 규칙
 - PR시 자신이 해당하는 branch에 pr을 날려주세요. main브랜치에 날리면 안됩니다.
