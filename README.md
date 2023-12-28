@@ -20,7 +20,7 @@
     ```
   - 커밋 제출시 코드
     ```java
-    public class boj_2557_seunghyun {
+    public class 2557 {
         public static void main(String[] args) {
             System.out.println("Hello World!");
         }
