@@ -62,3 +62,4 @@ void Switch(int x, int list[x][2], int a, int b){
 
 재고 :
 잦은 for문으로 시간 초과가 났을 것으로 판단, for문을 줄일 수 있는 알고리즘 탐색 */
+
