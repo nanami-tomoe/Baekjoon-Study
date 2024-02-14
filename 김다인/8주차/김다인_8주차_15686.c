@@ -26,7 +26,7 @@ int main() {
 
   //cCm 경우의 수 구현 -> 거리의 합 D[]에 저장
   
-  /*int D[cCm];
+  /*int D[cCm];  //거리의 합 비교 후 최소값 출력
   int min=D[0];
   for (int i=1; i<cCm; i++){
     if (min>D[i]) min=D[i];
