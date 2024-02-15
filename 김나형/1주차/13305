@@ -1,0 +1,39 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
+import java.util.StringTokenizer;
+
+public class _13305 {//주유소- 첫번째는 무조건 (최소한)거리만큼은 채우기
+    // 다음 주유소 가격이 이전보다 비싸면 이전가격으로,싸면 지금가격으로 거리곱하기
+
+    public static void main(String[] args) throws java.io.IOException{
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int N = Integer.parseInt(br.readLine());//도시의 개수
+
+        long[] dist = new long[N - 1];	// 거리 선언
+        long[] cost = new long[N];	// 비용 선언
+
+        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+        for(int i = 0; i < N - 1; i++) {
+            dist[i] = Long.parseLong(st.nextToken());
+        }//거리 입력
+
+
+        st = new StringTokenizer(br.readLine(), " ");
+        for(int i = 0; i < N; i++) {
+            cost[i] = Long.parseLong(st.nextToken());
+        }//비용 입력
+
+        long sum = 0;
+        long minCost = cost[0];	// 이전 까지의 과정 중 주유 최소 비용
+
+        for(int i = 0; i < N - 1; i++) {
+            if(cost[i] < minCost) {
+                minCost = cost[i];
+            }
+            sum += (minCost * dist[i]);
+        }
+        System.out.println(sum);
+
+    }
+}
