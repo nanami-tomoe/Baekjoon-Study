@@ -3,7 +3,7 @@ int M, min=9999, N, c=-1, h=-1, city[51][51];
 struct house { int x; int y; };
 struct chicken { int x; int y; };
 struct house H[9999]; struct chicken C[9999], list[9999];
-
+ 
 int dis(struct house h, struct chicken c){
   int x=0, y=0;
   if (h.x>=c.x) x+=h.x-c.x;
